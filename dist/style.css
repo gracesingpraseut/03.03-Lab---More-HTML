@@ -1,6 +1,11 @@
+/*
+  Link that helped with gradient rattlesnake border:
+  https://stackoverflow.com/questions/2717127/how-to-do-gradient-borders-in-css
+*/
 h1{
-  border-color: #d3e644;
-  border-style: dashed;
+  border: 8px solid;
+  border-image: linear-gradient(to right, #C2A878, #7A5F3A, #C2A878) 1;
+  padding: 12px;
 }
 
 table {
